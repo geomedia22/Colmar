@@ -59,6 +59,7 @@ h6{
   color: #111111;
 }
 
+
 /* Universal @1024px */
 
 @media only screen and (max-width: 1024px){
@@ -105,18 +106,17 @@ h6{
 }
 
  nav{
-   background-color: white;
    color: black;
  }
 
 nav ul{
   display: inline-flex;
   justify-content: flex-end;
-  align-items: center;
+  text-align: right;
   margin-right: 1.5rem;
 }
 
-ul li a{
+header nav ul li a{
   margin-left: 1rem;
   font-size: 0.9rem;
   text-decoration: none;
@@ -615,12 +615,12 @@ footer{
   justify-content: space-between;
   padding-top: 1rem;
   border-top: 1px solid #111111;
-  background-color: #111111;
   color: #DDDDDD;
+  background: #111111;
 }
 
-.footer span{
-  margin-left: 1.5rem;
+footer span{
+  margin-left: 2.5rem;
   font-family: "Raleway", "Open Sans", sans-serif;
   font-size: 0.75rem;
 }
@@ -628,8 +628,9 @@ footer{
 footer nav ul li a{
   font-family: "Raleway", "Open Sans", sans-serif;
   font-size: 0.75rem;
-  color:#DDDDDD;
-  background-color: #111111;
+  justify-content: space-between;
+  margin-right: 2.5rem;
+  color: #DDDDDD;
 }
 
 
@@ -646,6 +647,6 @@ footer nav ul li a{
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: #DDDDDD;
-    background-color: #111111;
+    background: #111111;
   }
 }
